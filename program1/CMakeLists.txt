@@ -10,4 +10,5 @@ include_directories(/usr/local/cuda/include)
 add_definitions("-std=c++11 -Wall -ggdb -Ofast -fopt-info-optall")
 cuda_add_executable(
   program1
-  program1.cpp)
+  program1.cpp
+  )
